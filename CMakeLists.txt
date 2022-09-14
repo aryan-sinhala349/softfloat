@@ -39,7 +39,7 @@ include_directories(softfloat PUBLIC
 #        ${INCLUDE_SRC}
 #        ${SPECIALIZE_SRC})
 
-add_library(softfloat SHARED
+add_library(softfloat STATIC
         source/s_compare96M.c
         source/s_compare128M.c
         source/s_shortShiftLeft64To96M.c
